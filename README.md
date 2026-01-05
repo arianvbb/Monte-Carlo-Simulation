@@ -1,28 +1,29 @@
 # ☑️Monte-Carlo Simulation for retirement goals 
 This code uses a Monte Carlo Simulation and external libraries to find the probability through a set number of simulations to reach your retirement goals.
-We use data found online and include normal growth in the stock market and we also take into account for market crashes. I plan on adding more variables in the future.
+It uses data found online and include normal growth in the stock market and we also take into account for market crashes. I plan on adding more variables in the future.
 
 ## ❇️Features
-- **Notebook**: 4 Unique tabs for each section of units that can be converted: Temperature, Mass, Force and Energy.
-- **Button**: A button on each page configured to run a code that checks the input and the unit selected then print the result.
-- **Dropdown**: A dropdown to be able to easily select between available units.
+- **Input**: Inputs that gathers all the information needed to run the simulation.
+- **Monte-Carlo Simulation**: The simulation itself is the most important feature in this code and is what runs the simulation and assures accurate results.
+- **Graph**: Matplotlib is used to graph where all the simulations end up making it easy to see where the vast majority have end up, being your result.
 
-#### This project was made entirely in Python using the TKinter library.
+#### This project was made entirely in Python using numpy, matplotlib and local libraries.
 
 ## 🤔The Process 
-I started searching up the documentation for the TKinter library and using basic features like editing the title of the root (window) and dimensions. After began experimentation, started with text, then buttons, having the buttons do things, etc. It was all time-consuming as I had no previous experience in GUIs nor using TKinter.
 
-After making a prototype I promptly figured out I would rather use Notebook to display tabs instead of Menu that would use a traditional menu to allow users to switch between pages, this allowed me to learn the basics of both.
+I started watching the official video from MIT on Monte-Carlo simulation to get an idea of how it works. From there I decided on this project.
 
-Most of my time was surpisingly spent struggling with actually placing the different features inside the root, I tried both grid and pack, encountered problems and went back and solved it.
+I tried a lot on my own and eventually got it working, althought figuring out how to plot all simulations took a while of reading documentation to figure out.
+
+The project included a lot of trial and error and is one of the more fun but hard projects I had done to date.
 
 ## 📚My takeaways 
 
-I learnt a ton of TKinter and hope to be able to make something new in TKinter soon, my main takeaways came from: Label, Notebook, Menu, Button, Title, Geometry, Grid and Pack.
+My main takeaway from this is the theory behind Monte-Carlo simulation and how it works. Truly something I'll have a ton of use for in future projects.
 
-I figured out the basics of TKinter, how to make simple things run and how to make it look okay, using fonts, sizes, etc.
+I also learnt that maths can be very difficult to code into Python, integrals for example aren't quite as easy to plot in code as they are in real life.
 
-This is also the first time I genuinly realised the importance of writing clean, structured and strictly necessary code; which is something I'll focus on moving forward.
+Lastly I got to enhance my plotting skills in matplotlib even fruther.
 
 ## 🚀Running the project 
 
