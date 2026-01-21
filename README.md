@@ -32,3 +32,5 @@ Lastly I got to enhance my plotting skills in matplotlib even fruther.
 3. Make sure to input numbers, the code is run inside the editor.
 
 ## 🍿Video
+https://github.com/user-attachments/assets/9621e4b3-95f3-4232-821e-159db628c3a9
+
